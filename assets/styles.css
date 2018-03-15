@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.modal {
+  bottom: 0;
+  display: none;
+  position: absolute;
+}
+.tag-view {
+  background-color: white;
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 600px;
+  transition: top 1s;
+  width: 100%;
+}
+.tag-view h2 {
+  text-align: right;
+}
+.tag-view article:first-child {
+  border: 1.5px solid #93d852;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+}
+.tag-view article:first-child picture {
+  width: 30px;
+}
+.tag-view article:first-child picture img {
+  margin-right: 20px;
+  vertical-align: top;
+}
+.tag-view article:first-child .check-icon {
+  bottom: 5px;
+  left: 35px;
+  position: absolute;
+  width: 23px;
+}
+.tag-view article .check-icon img {
+  width: 100%;
+}
+.tag-view article:first-child h3 {
+  color: #93d852;
+  display: inline-block;
+  font-weight: bold;
+}
+.tag-view article {
+  margin: 20px 0;
+}
+.tag-view article:nth-child(2) h3 {
+  color: #4a4a4a;
+}
+.tag-view article:nth-child(2) img {
+  vertical-align: middle;
+}
+.tag-section {
+  margin-top: 15px;
+}
+.tag {
+  background-color: #e2f5f6;
+  border-radius: 2px;
+  color: #6ad4da;
+  height: 37px;
+  padding: 8px;
+  margin: 0 5px;
+}
+.new-tag-input {
+  border: 0;
+  font-size: 23px;
+}
+.new-tag-input:focus {
+  outline: 0;
+}

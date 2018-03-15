@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prueba Beek</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <section class="book-view">
+    <button onclick="showModal()">Add to want to read</button>
+    <article class="modal">
+      <picture>
+        <img src="" alt="">
+      </picture>
+      <h4>¡Libro guardado en tus listas</h4>
+      <div>
+        <input type="text" placeholder="añadir a etiquetas" onclick="showTagView()">
+      </div>
+      <p>Las etiquetas te ayudan a organizar tus libros</p>
+    </article>
+  </section>
+
+  <section class="tag-view">
+    <!-- <h2 onclick="hideTagView()">x</h2> -->
+    <article>
+      <picture>
+        <img src="https://i.imgur.com/bv3Ahfp.jpg" alt="book">
+      </picture>
+      <picture class="check-icon">
+        <img src="https://png.icons8.com/color/160/ok.png" alt="">
+      </picture>
+      <h3> ¡Felicidades, <br> libro guardado!</h3>
+    </article>
+    <article>
+      <h3>Ahora agrega etiquetas</h3>
+      <p>Las etiquetas te ayudan a organizar tus libros</p>
+      <div class="tag-section">
+        <picture>
+          <img src="https://i.imgur.com/CLSrcjN.png" alt="tag">
+        </picture>
+        <span class="tag-container"></span>
+        <input class="new-tag-input" type="text">
+      </div>
+    </article>
+  </section>
+
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
